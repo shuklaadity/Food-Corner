@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.food{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    
+}
+.filter-btn{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+
+
+}
+.Card{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.10);
+    text-align: center;
+
+    
+
+}
+.Card img{
+        
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+}
+.Card img:hover{
+    transform: scale(1.1);
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    background:transparent;
+
+}
+button:hover{
+    background-color: orange;
+    border: 2px solid black;
+    color: white;
+}
